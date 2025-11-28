@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image']
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+  typescript: {
+    strict: false // Atau typeCheck: false
+  }
 })
